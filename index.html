@@ -7,26 +7,33 @@
 </head>
 
 <body>
-    <div>
-        <img class="logo" src="images/google_logo.png" alt="Google logo">
-    </div>
+    <div class="main">
+        <div>
+          <img class="logo" src="images/google_logo.png" alt="Google logo">
+        </div>
 
-    <div>
-        <form>
-            <input type="text" id="box" name="box">
-            <img class="search_icon" src="images/search_image.png" alt="Search">
-            <input type="button" value="Google Search" id="google_button">
-            <input type="button" value="I'm Feeling Lucky" id="lucky_button">
-        </form>
+        <div class="search_bar">
+            <form>
+                <input type="text" id="box" name="box">
+                <img class="search_icon" src="images/search_image.png" alt="Search">
+                <div class="buttons">
+                    <input type="button" value="Google Search" id="google_button">
+                    <input type="button" value="I'm Feeling Lucky" id="lucky_button">
+                </div>
+            </form>
+        </div>
     </div>
 
     <footer class="footer">
-        <div><a class="footer_link" href="">Advertising</a></div>
-        <div><a class="footer_link" href="">Business</a></div>
-        <div><a class="footer_link" href="">How Search works</a></div>
-        <div><a class="footer_link" href="">Privacy</a></div>
-        <div><a class="footer_link" href="">Terms</a></div>
-        <div><a class="footer_link" href="">Settings</a></div>
+        <div class="left_grp">
+            <div><a class="footer_link" href="">Advertising</a></div>
+            <div><a class="footer_link" href="">Business</a></div>
+            <div><a class="footer_link" href="">How Search works</a></div>
+        </div>
+        <div class="right_grp">
+            <div><a class="footer_link" href="">Privacy</a></div>
+            <div><a class="footer_link" href="">Terms</a></div>
+            <div><a class="footer_link" href="">Settings</a></div>
+        </div>
     </footer>
-
 </body>
