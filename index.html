@@ -7,18 +7,33 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="left_grp">
+            <div><a class="header_link" href="">About</a></div>
+            <div><a class="header_link" href="">Store</a></div>
+        </div>
+        <div class="right_grp">
+            <div><a class="header_link" href="">Gmail</a></div>
+            <div><a class="header_link" href="">Images</a></div>
+            <div><a class="header_link" href=""><img src="images/apps.png" alt="Google apps"/></a></div>
+            <div><input type="button" value="Sign in" id="signin"></div>
+        </div>
+    </header>
     <div class="main">
-        <div>
-          <img class="logo" src="images/google_logo.png" alt="Google logo">
+        <div class="logo">
+          <img src="images/google_logo.png" alt="Google logo">
         </div>
 
         <div class="search_bar">
             <form>
-                <input type="text" id="box" name="box">
-                <img class="search_icon" src="images/search_image.png" alt="Search">
+                <div class="search_box">
+                    <input type="text" id="box" name="box" size="50">
+                    <img class="search_icon" src="images/search_image.png">
+                    <img class="mic_icon" src="images/mic.png">
+                </div>
                 <div class="buttons">
-                    <input type="button" value="Google Search" id="google_button">
-                    <input type="button" value="I'm Feeling Lucky" id="lucky_button">
+                    <input type="button" class="button" value="Google Search" id="google_button">
+                    <input type="button" class="button" value="I'm Feeling Lucky" id="lucky_button">
                 </div>
             </form>
         </div>
